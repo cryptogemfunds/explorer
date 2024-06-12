@@ -1,0 +1,23 @@
+{
+    "chain_name": "FairBlock",
+    "api": [
+        {"provider": "NodeSafe", "address": "42.117.129.71:3217"},
+        {"provider": "P10node", "address": "https://api.testnet.fairblock.p10node.com"},
+	{"provider": "Guru", "address": "https://testnet.fairblock.api.explorers.guru/api"}
+    ],
+    "rpc": [
+        {"provider": "NodeSafe", "address": "42.117.129.71:32657"}
+    ],
+    "sdk_version": "0.38.6",
+    "coin_type": "118",
+    "min_tx_fee": "0.00025",
+    "addr_prefix": "Fairy",
+    "logo": "/logos/fairblock.jpg",
+    "theme_color":,
+        "assets": [{
+        "base": "uFAIRY",
+        "symbol": "FAIRY",
+        "exponent": "6",
+        "logo": "/logos/fairblock.jpg",
+    }]
+}

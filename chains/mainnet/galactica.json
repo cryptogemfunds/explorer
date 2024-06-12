@@ -1,0 +1,23 @@
+{
+    "chain_name": "galactica",
+    "api": [
+        {"provider": "NodeSafe", "address": "https://galactica-testnet-api.nodesafe.online"},
+        {"provider": "itrocket", "address": "https://galactica-testnet-api.itrocket.net"}
+    ],
+    "rpc": [
+        {"provider": "NodeSafe", "address": "https://alactica-testnet-rpc.nodesafe.online"},
+        {"provider": "itrocket", "address": "https://galactica-testnet-api.itrocket.net"}
+    ],
+    "sdk_version": "0.37.2",
+    "coin_type": "118",
+    "min_tx_fee": "0.0001",
+    "addr_prefix": "gala",
+    "logo": "/logos/galactica.jpeg",
+    "theme_color": "#812cd6",
+        "assets": [{
+        "base": "agnet",
+        "symbol": "GNET",
+        "exponent": "18",
+        "logo": "/logos/galactica.jpeg"
+    }]
+}

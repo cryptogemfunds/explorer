@@ -1,0 +1,25 @@
+{
+    "chain_name": "Warden",
+    "api": [
+        {"provider": "NodeSafe", "address": "37.60.240.206:1317"},
+        {"provider": "P10node", "address": "https://api.testnet.warden.p10node.com"},
+	{"provider": "itrocket", "address": "https://warden-testnet-api.itrocket.net"}
+    ],
+    "rpc": [
+        {"provider": "NodeSafe", "address": "37.60.240.206:26657"},
+        {"provider": "itrocket", "address": "https://warden-testnet-rpc.itrocket.net"}
+    ],
+    "sdk_version": "0.38.6",
+    "coin_type": "118",
+    "min_tx_fee": "0.00025",
+    "addr_prefix": "Ward",
+    "logo": "/logos/warden.jpg",
+    "theme_color": "#812cd6",
+        "assets": [{
+        "base": "Ward",
+        "symbol": "Ward",
+        "exponent": "6",
+        "logo": "/logos/warden.jpg"
+    }]
+}
+

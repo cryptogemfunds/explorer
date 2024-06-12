@@ -1,0 +1,24 @@
+{
+    "chain_name": "Side",
+    "api": [
+        {"provider": "NodeSafe", "address": "37.60.240.206:5317"},
+        {"provider": "Side", "address": "https://testnet-rest.side.one"},
+	{"provider": "itrocket", "address": "https://side-testnet-rpc.itrocket.net"}
+    ],
+    "rpc": [
+        {"provider": "NodeSafe", "address": "37.60.240.206:55657"},
+        {"provider": "itrocket", "address": "https://side-testnet-rpc.itrocket.net"}
+    ],
+    "sdk_version": "0.37.4",
+    "coin_type": "118",
+    "min_tx_fee": "0.005",
+    "addr_prefix": "Side",
+    "logo": "/logos/sided.jpg",
+    "theme_color": "#812cd6",
+        "assets": [{
+        "base": "uside",
+        "symbol": "Side",
+        "exponent": "6",
+        "logo": "/logos/sided.jpg"
+    }]
+}

@@ -1,0 +1,26 @@
+{
+    "chain_name": "0g-gravity-testnet",
+    "api": [
+        {"provider": "NodeSafe", "address": "https://0g-testnet-api.nodesafe.online"},
+        {"provider": "P10node", "address": "https://api.testnet.0g.p10node.com"}
+    ],
+    "rpc": [
+        {"provider": "NodeSafe", "address": "https://0g-testnet-rpc.nodesafe.online"},
+        {"provider": "XSS-Labs", "address": "https://0g-testnet-rpc.validator247.com"}
+    ],
+    "sdk_version": "0.42.6",
+    "coin_type": "60",
+    "min_tx_fee": "0.00",
+    "addr_prefix": "0g",
+    "logo": "/logos/zg.svg",
+    "theme_color": "#812cd6",
+    "assets": [{
+        "base": "ua0gi",
+        "symbol": "A0GI",
+        "exponent": "6",
+        "logo": "/logos/zg.svg"
+    }]
+}
+
+
+

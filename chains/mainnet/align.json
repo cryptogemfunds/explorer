@@ -1,0 +1,24 @@
+{
+    "chain_name": "alignedlayer",
+    "api": [
+        {"provider": "NodeSafe", "address": "37.60.240.206:2217"},
+        {"provider": "p10node", "address": "https://api.testnet.aligned.p10node.com"},
+        {"provider": "itrocket", "address": "https://alignedlayer-testnet-api.itrocket.net"}
+    ],
+    "rpc": [
+        {"provider": "NodeSafe", "address": "37.60.240.206:24657"},
+        {"provider": "itrocket", "address": "https://alignedlayer-testnet-rpc.itrocket.net"}
+    ],
+    "sdk_version": "0.38.5",
+    "coin_type": "118",
+    "min_tx_fee": "0.0001",
+    "addr_prefix": "aligned",
+    "logo": "/logos/aligned.jpg",
+    "theme_color": "#812cd6",
+        "assets": [{
+        "base": "stake",
+        "symbol": "AL",
+        "exponent": "6",
+        "logo": "/logos/aligned.jpg"
+    }]
+}

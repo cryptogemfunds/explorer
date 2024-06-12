@@ -1,0 +1,24 @@
+{
+    "chain_name": "Hedge",
+    "api": [
+        {"provider": "NodeSafe", "address": "89.117.147.37:3217"},
+        {"provider": "LCD", "address": "https://lcd-berberis.hedgeblock.io"},
+	{"provider": "NodeStake", "address": "https://api-t.hedge.nodestake.org"}
+    ],
+    "rpc": [
+        {"provider": "NodeSafe", "address": "89.117.147.37:35657"},
+        {"provider": "NodeStake", "address": "https://rpc-t.side.nodestake.org"}
+    ],
+    "sdk_version": "0.37.2",
+    "coin_type": "118",
+    "min_tx_fee": "0.0025",
+    "addr_prefix": "hedge",
+    "logo": "/logos/hedge.png",
+    "theme_color": "#812cd6",
+        "assets": [{
+        "base": "uhedge",
+        "symbol": "Hedge",
+        "exponent": "6",
+        "logo": "/logos/hedge_token.svg"
+    }]
+}
